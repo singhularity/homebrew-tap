@@ -14,16 +14,6 @@ class Devsbill < Formula
     end
   end
 
-  on_linux do
-    if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.0.1/devsbill-v0.0.1-linux-arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-    else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.0.1/devsbill-v0.0.1-linux-amd64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-    end
-  end
-
   def install
     bin.install Dir["*"]
     bin.install_symlink "dbill" => "devsbill"
