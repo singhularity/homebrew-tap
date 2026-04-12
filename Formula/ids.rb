@@ -1,16 +1,16 @@
 class Ids < Formula
   desc "Portfolio operations platform for serial builders"
   homepage "https://indieprise.com"
-  version "0.4.3"
+  version "0.4.4"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/ids/v0.4.3/ids-v0.4.3-darwin-arm64.tar.gz"
-      sha256 "1745830c3ab39a5be3daa1e22717df413b3ac6a24bf02324ce69787c7f1f5334"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/ids/v0.4.4/ids-v0.4.4-darwin-arm64.tar.gz"
+      sha256 "9a8c48a1dd7a8ee0ea06fb50a6384b35ae0929abcef9b2e4cfbfcb1aab05f244"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/ids/v0.4.3/ids-v0.4.3-darwin-amd64.tar.gz"
-      sha256 "7a97aca706fd9bb0911b919c637c4f62ae19aa76b22fefd62886982dc5b0fdc2"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/ids/v0.4.4/ids-v0.4.4-darwin-amd64.tar.gz"
+      sha256 "e18c1ee38a4ceba6320f1f614dad1f5585b417660d7c49f473df4d4202527944"
     end
   end
 
