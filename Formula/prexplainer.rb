@@ -1,16 +1,16 @@
 class Prexplainer < Formula
   desc "Code explainer and tour generator"
   homepage "https://indieprise.com"
-  version "0.8.2"
+  version "0.4.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/prexplainer/v0.8.2/prexplainer-v0.8.2-darwin-arm64.tar.gz"
-      sha256 "83fc904f9f3eb664815f87afea437e552f3edac4f3b6b3d453c27a25ad0b043d"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/prexplainer/v0.4.5/prexplainer-v0.4.5-darwin-arm64.tar.gz"
+      sha256 "89c6bfd1398768b0266fbc41db532fafcc22550d59b69d62b4ec69b30682bba9"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/prexplainer/v0.8.2/prexplainer-v0.8.2-darwin-amd64.tar.gz"
-      sha256 "8675350f8e4564dc1685144f0ca58e646cd6559677524f56ef25b6b52b4ac7b9"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/prexplainer/v0.4.5/prexplainer-v0.4.5-darwin-amd64.tar.gz"
+      sha256 "122614e7626fea9e647b9a1affe9aa5adc0b17df5ae8bc27b1b56de5016fdd65"
     end
   end
 

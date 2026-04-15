@@ -1,16 +1,16 @@
 class Migrataur < Formula
   desc "3-tier code migration agent"
   homepage "https://indieprise.com"
-  version "0.0.1"
+  version "0.4.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.0.1/migrataur-v0.0.1-darwin-arm64.tar.gz"
-      sha256 "15c5f281fb39229851c619751bd8b3742ef863b12f47c1602fc30b961cf278c3"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.4.5/migrataur-v0.4.5-darwin-arm64.tar.gz"
+      sha256 "f8ea0e375b40ca19c8ddcf1a04e4cbe43de28ae52e392288b561a229ed23c8e1"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.0.1/migrataur-v0.0.1-darwin-amd64.tar.gz"
-      sha256 "1e7b8f3b390f5353ca7acc6cedf9671cd40d23404fce2d1121bb598b9703ce4e"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.4.5/migrataur-v0.4.5-darwin-amd64.tar.gz"
+      sha256 "fc438d54b4e99b57a5184c8ef7ba2b94cdcdb3f15565ca7e663876cc96fb0409"
     end
   end
 

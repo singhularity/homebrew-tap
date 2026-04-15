@@ -1,16 +1,16 @@
 class Keepmesane < Formula
   desc "Claude Code session manager"
   homepage "https://indieprise.com"
-  version "0.0.1"
+  version "0.4.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/keepmesane/v0.0.1/keepmesane-v0.0.1-darwin-arm64.tar.gz"
-      sha256 "ea557057c8c14133aa1f5f18bbee8bd83a214ce1b76e74df81c794d936955aac"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/keepmesane/v0.4.5/keepmesane-v0.4.5-darwin-arm64.tar.gz"
+      sha256 "3e77bb0414a00f5607e8fbfe6e4f7e44fea70ce8dae23123111e762732f795c8"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/keepmesane/v0.0.1/keepmesane-v0.0.1-darwin-amd64.tar.gz"
-      sha256 "124dc81a4329d97b55f3ed6db08b7fbfea1833a652e0f56932c9f17837d8fa40"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/keepmesane/v0.4.5/keepmesane-v0.4.5-darwin-amd64.tar.gz"
+      sha256 "82befd5004a2e7943c24a54fbedf30eb0c9dcd0a97c7897db08cd204114668f6"
     end
   end
 
