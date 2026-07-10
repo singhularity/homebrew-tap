@@ -7,14 +7,14 @@ class IntelligenceWarehouse < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.0/intelligence-warehouse-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "6845b5182090356b39f1aa5dd4f93853e28440ae5e99889261cbb1f4222b7b88"
+      sha256 "4dca45278e4b196b8e17681563a763580b7430c98e898f35cf2a17c2b855ee00"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.0/intelligence-warehouse-v0.3.0-linux-amd64.tar.gz"
-      sha256 "7d7678578d1f42299e5b24c72d8d6f05a0288a38aaa38570e72d524855227c7b"
+      sha256 "79a2838b3b6b0eaad3b4580c75486e67c9bc1b952a9357d42fc4a4b690558cc9"
     end
   end
 
