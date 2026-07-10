@@ -1,20 +1,20 @@
 class IntelligenceWarehouse < Formula
   desc "Cross-project intelligence engine — an Obsidian 'brain' vault for Claude & Codex"
   homepage "https://github.com/singhularity/intelligence-warehouse"
-  version "0.3.0"
+  version "0.3.1"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.0/intelligence-warehouse-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "4dca45278e4b196b8e17681563a763580b7430c98e898f35cf2a17c2b855ee00"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.1/intelligence-warehouse-v0.3.1-darwin-arm64.tar.gz"
+      sha256 "077a264813a17b9d20c5f1408518b0027d5ff9a29136fd3caa5da9758c158de6"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.0/intelligence-warehouse-v0.3.0-linux-amd64.tar.gz"
-      sha256 "79a2838b3b6b0eaad3b4580c75486e67c9bc1b952a9357d42fc4a4b690558cc9"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/intelligence-warehouse/v0.3.1/intelligence-warehouse-v0.3.1-linux-amd64.tar.gz"
+      sha256 "f432303df17266813fbfb624d22d8648b04d8a4197ad91639dc87b5d59106852"
     end
   end
 
