@@ -1,26 +1,26 @@
 class Devsbill < Formula
   desc "Multi-cloud cost tracker with IaC scanning"
   homepage "https://devsbill.com"
-  version "0.5.4"
+  version "0.5.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.4/devsbill-v0.5.4-darwin-arm64.tar.gz"
-      sha256 "0a1ed87ab5430b988851ffbc1c37c181363799f6e56b02323706deb281faa97e"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.5/devsbill-v0.5.5-darwin-arm64.tar.gz"
+      sha256 "946676b8605e6079a02cabd9c06baa116a024c7f520d4fc4f4c9664b2a48883d"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.4/devsbill-v0.5.4-darwin-x64.tar.gz"
-      sha256 "4a09e447ebe6c946915660c43c46902a9d3508472c0a91e889f47c75e91314ca"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.5/devsbill-v0.5.5-darwin-x64.tar.gz"
+      sha256 "7122a616f9a5e171c3b2f47dd5dc75c9e937bbf6c3d53e049bdbd6e8eb667ef4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.4/devsbill-v0.5.4-linux-arm64.tar.gz"
-      sha256 "a2727b5a393179809c67bf4aade9f8e88ed78ee6486d5618d205e7ca77a69f0c"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.5/devsbill-v0.5.5-linux-arm64.tar.gz"
+      sha256 "fa1b8d9a28a16950d993f8044ff9610d354c287692ee56c8708c506eb5459a87"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.4/devsbill-v0.5.4-linux-amd64.tar.gz"
-      sha256 "abc63da0e408aff35ed4af68aacffeca77ca5e59b0a585f1480188fb80628674"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.5/devsbill-v0.5.5-linux-amd64.tar.gz"
+      sha256 "bfa36d2db17a021d194f31904fd2c917ad11919910189aa4efb64e1dc96ff3e1"
     end
   end
 
