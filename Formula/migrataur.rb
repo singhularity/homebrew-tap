@@ -1,26 +1,26 @@
 class Migrataur < Formula
   desc "3-tier code migration agent"
   homepage "https://migrataur.com"
-  version "0.8.7"
+  version "0.8.8"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.7/migrataur-v0.8.7-darwin-arm64.tar.gz"
-      sha256 "30460237045d0f0ecfa2d16fc759d54e53b728a8a26c89dfbe4a70d4a3ef42cc"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.8/migrataur-v0.8.8-darwin-arm64.tar.gz"
+      sha256 "5ac40f926476288598f4ed5a47d62d402f4306d7b601db3c6f3a0c2c5071c2e2"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.7/migrataur-v0.8.7-darwin-x64.tar.gz"
-      sha256 "7156d9431082ef390625b046143d9cb9490dd46f1763c4ed5818b331d5cd37fa"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.8/migrataur-v0.8.8-darwin-x64.tar.gz"
+      sha256 "b9c69d8d773fb4f755268b93bc5eedd9e0a4929649f8941445c79a0b23d90cdf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.7/migrataur-v0.8.7-linux-arm64.tar.gz"
-      sha256 "ff7e47b991e2e21bf1ab19be2950b8a396bb17af3e3ef09040c54b0d04f13ae8"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.8/migrataur-v0.8.8-linux-arm64.tar.gz"
+      sha256 "9386a047bc70c0b4760d21183b79a3b8baea53689c3e3fb859a23b95e828f286"
     else
-      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.7/migrataur-v0.8.7-linux-amd64.tar.gz"
-      sha256 "7155341c8c5413b4c127ea4b2754828e16c619899a6576b47ba603ea6d4bb098"
+      url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/migrataur/v0.8.8/migrataur-v0.8.8-linux-amd64.tar.gz"
+      sha256 "49ba51dbc6ff17bff5f36e4054ff6b3e275b9db71e3a42ee980bc2b7546e121b"
     end
   end
 
