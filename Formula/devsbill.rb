@@ -7,20 +7,20 @@ class Devsbill < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.6/devsbill-v0.5.6-darwin-arm64.tar.gz"
-      sha256 "501d39d2d25574f146f6e12d46d9957d6bed6585dabff771eaeaef9d18a6cc25"
+      sha256 "1223a034182ebc1acc1124a7575244c9ccb17e4b71ebe72760ecd16149922cbf"
     else
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.6/devsbill-v0.5.6-darwin-x64.tar.gz"
-      sha256 "31a6c86385b63a6911bc45eaef58d18908dccee795b8069d9a204f9ab7a4a183"
+      sha256 "734dcd50b62e00f40b5274ec2bae81bc611ae7bb9c27b3932fb7d73ce3e4440f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.6/devsbill-v0.5.6-linux-arm64.tar.gz"
-      sha256 "464f209ced63278e308df383214236a90eb7d1f6c77e627357c49a1659faf27a"
+      sha256 "6025aa894ae06c01b45d1358a62e54b0f11efee5b6d3280424d9ad79cfc3a2e0"
     else
       url "https://pub-6960894e747c4eacaf9e78494e0c9286.r2.dev/devsbill/v0.5.6/devsbill-v0.5.6-linux-amd64.tar.gz"
-      sha256 "81249f95b942bfbf03113251c53d55a9ee3ca08fcd6613aca597ebf92987d94b"
+      sha256 "68028c379d4d65012541126cb46ab0e7a60d3a229b3a16e62dd3baa5a6779b50"
     end
   end
 
